@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    height: 82vh;
+    background-image: url(/assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-size: max(1300px, 100vh);
+}
+
+.box {
+    width: 100%;
+    height: 82vh;
+    background-color: black;
+    filter: opacity(0.78);
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 15%;
+    margin: 0px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar img {
+    width: 148px;
+}
+
+.text {
+    width: 100%;
+    height: calc(80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    gap: 18px 0px;
+}
+
+.text>:nth-child(1) {
+
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    padding: 0px 40px;
+    font-size: 56px;
+    text-align: center;
+    padding: 0px 28%;
+}
+
+.text> :nth-child(2) {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text> :nth-child(3) {
+    padding: 0px 18%;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.register{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.red-btn {
+    color: white;
+    background-color: rgb(229, 9, 20);
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+.red-btn:hover{
+    background-color: rgb(193,17,25);
+}
+.register input{
+    background:none;
+    color:  rgb(255, 255, 255);
+    width: 364px;
+    padding: 20px 15px 15px 15px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.btn-1{
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 8px 17px;
+    border: none;
+    border-radius: 3px;
+}
+.btn-2{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px 27px;
+    border: none;
+    height: 63px;
+    font-family: "Lato", sans-serif;
+    border-radius: 3px;
+}
+.seprate {
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: 1vh;
+    filter: opacity(0.3);
+
+}
+
+.first {
+    width: 85vw;
+    height: 45vh;
+    margin: 35px auto 20px auto;
+}
+
+.first h1 {
+    font-size: 26px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px 5px;
+    margin-top: 20px;
+    overflow-x: hidden;
+    height: 80%;
+    padding: 15px;
+}
+.movies img{
+    cursor: pointer;
+    width: 175px;
+}
+.movies img:hover{
+    transform: scale(1.1);
+    transition: transform 1.3s ease;
+}
+.second{
+    width: 85vw;
+    height: 62vh;
+    margin: 20px auto;
+    overflow-x: hidden;
+}
+.second h1{
+    font-size: 26px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    height: 86%;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.boxes{
+    /* border: 2px solid red; */
+    position: relative;
+    padding: 10px;
+    background-color: #050544;
+    border-radius: 16px;
+}
+.boxes h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px; 
+    margin: 14px 0px;
+}
+.boxes p{
+     font-family: "sans-serif";
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.boxes svg{
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+.third{
+    width: 85vw;
+    margin: 0px auto;
+    
+}
+.third h1{
+     font-size: 26px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.faq{
+    width: 100%;
+    
+}
+
+.boxs{
+    background-color: rgb(45,45,45);   
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 13px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.boxs:hover{
+    background-color: rgb(65,65,65);
+}
+.boxs h3{
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.last{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 0px;
+}
+.last p{
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    word-spacing: 5px;
+    text-align: center;
+}
+.new input{
+    width: 539px;
+}
+footer{
+     width: 80vw;
+    margin: 50px auto 0px auto;
+    
+}
+footer h6 a{
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.foot{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 48px;
+    
+}
+.column h6{
+    margin: 20px 0px;
+}
+.column h6 a{
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+      font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@media only screen and (min-width:955px) and (max-width:1280px) {
+    .movies img{
+        width: 140px;
+    }
+    .first{
+        height: 35vh;
+    }
+    .text>:nth-child(1){
+        font-size: 40px;
+    }
+    .text> :nth-child(2){
+        font-size: 16px;
+    }
+    .register input{
+        width: 300px;
+    }
+    .red-btn{
+        font-size: 18px;
+    }
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .boxes h3{
+        font-size: 20px;
+    }
+    .boxes{
+        height:23vh ;
+    }
+}
+@media only screen and (max-width:954px) {
+    .movies img{
+        width: 112px;
+    }
+    .navbar img{
+        width: 89px;
+    }
+    .text>:nth-child(1){
+        font-size: 32px;
+    }
+    .first{
+        height: 30vh;
+    }
+   
+    .register input{
+        width: 260px;
+    }
+    .second{
+        height: auto;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+        height:auto;
+    }
+    .boxes h3{
+        font-size: 20px;
+    }
+    .boxes{
+        height:23vh ;
+    }
+    .boxs h3{
+        font-size: 18px;
+    }
+    .btn-2{
+        font-size: 18px;
+    }
+    .foot{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .heading{
+    font-size: 18px !important;
+}
+}
+@media only screen and (max-width:600px) {
+    .text>:nth-child(1){
+        padding: 0px 13%;
+    }
+    .text> :nth-child(2){
+        font-size: 16px;
+    }
+     .register{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .register input{
+    width: 312px;
+    padding: 15px;
+    }
+    .btn-2{
+        height: 57px;
+        padding: 12px 20px;
+    }
+    .foot{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
