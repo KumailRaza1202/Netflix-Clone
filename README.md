@@ -34,7 +34,7 @@ This project focuses on building responsive layouts and practicing modern UI des
 ## 📂 How to Use
 1. Clone this repository  
    ```bash
-   git clone https://github.com/KumailRaza1202/Netflix-Clone.git
+   git clone https://github.com/kumailzs/Netflix-Clone.git
 
 Open index.html in your browser
 
