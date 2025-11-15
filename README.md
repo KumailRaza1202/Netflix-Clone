@@ -22,6 +22,9 @@ This project focuses on building responsive layouts and practicing modern UI des
 
 ## 🖼️ Preview
 ![alt text](preview/preview_1.jpg)
+![alt text](preview/preview_2.jpg)
+![alt text](preview/preview_3.jpg)
+![alt text](preview/preview_4.jpg)
 
 ---
 
